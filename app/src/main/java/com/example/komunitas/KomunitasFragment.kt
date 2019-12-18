@@ -1,0 +1,22 @@
+package com.example.komunitas
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+
+class KomunitasFragment : Fragment() {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        return inflater.inflate(R.layout.fragment_komunitas, container, false)
+    }
+
+    companion object{
+        fun newInstance(): KomunitasFragment{
+            val fragment = KomunitasFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            return fragment
+        }
+    }
+}
