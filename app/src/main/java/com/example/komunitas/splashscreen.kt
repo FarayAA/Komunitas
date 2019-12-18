@@ -21,6 +21,6 @@ class splashscreen : AppCompatActivity() {
             startActivity(Intent(this@splashscreen, MainActivity::class.java))
             //finish this activity
             finish()
-        },4000)
+        },2000)
     }
 }

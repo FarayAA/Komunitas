@@ -9,12 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
-        <activity android:name=".Komunitas">
-
-        </activity>
-        <activity android:name=".User">
-
-        </activity>
+        <activity android:name=".Detail_Event"></activity>
+        <activity android:name=".Detail_Komunitas" />
+        <activity android:name=".Komunitas" />
+        <activity android:name=".User" />
         <activity android:name=".splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
